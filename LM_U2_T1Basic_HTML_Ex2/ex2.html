@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Borde de las tablas</title>
+
+    <!--Borde típico -->
+    <!-- <style>
+        table {
+            border-collapse: collapse;
+        }
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style> -->
+    <!--Borde sin colapsar-->
+    <!-- <style>
+        table,
+        td,
+        th {
+            border: 3px solid black;
+        }
+    </style> -->
+    <!-- Borde Inferior - Superior-->
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid rgb(247, 80, 29);
+        }
+        .titulo{
+            background: rgb(255, 174, 81);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+    <body>
+        <table>
+            <tr>
+                <th class="titulo uno">Número del catálogo</th>
+                <th class="titulo uno">Nombre</th>
+                <th class="titulo uno">Imagen</th>
+                <th class="titulo uno">Web donde lo encontramos</th>
+                <th class="titulo uno">Tienda</th>
+                <th class="titulo uno">Precio</th>
+            </tr>
+            <tr>
+                <th>7821562</th>
+                <th>Atari Mini</th>
+                <th colspan="0"> <img src="/Users/aleja/OneDrive/Documentos/GitHub/Lenguaje-de-marcas/LM_U2_T1Basic_HTML_Ex2/Atari_Mini.jpg" 
+                img height="80px" width="150px" scr="img/Atari_Mini.jpg"></th>
+                <th><p><a href="http://www.ebay.es" target="_blank">http://www.ebay.es</a></p></th>
+                <th>E-bay</th>
+                <th>100€</th>
+            </tr>
+            <tr>
+                <th>243243</th>
+                <th>Super Nintendo Mini</th>
+                <th colspan="0"> <img src="/Users/aleja/OneDrive/Documentos/GitHub/Lenguaje-de-marcas/LM_U2_T1Basic_HTML_Ex2/Super_Nintendo.jpg" 
+                img height="80px" width="150px" scr="img/Super_Nintendo.jpg"></th>
+                <th colspan="2" rowspan="3"> <p><a href="http://www.amazon.es" target="_blank">https://www.amazon.es</a></p></th>
+                <th>100€</th>
+            </tr>
+            <tr>
+                <th>593922</th>
+                <th>Mega Drive Mini</th>
+                <th colspan="0"> <img src="/Users/aleja/OneDrive/Documentos/GitHub/Lenguaje-de-marcas/LM_U2_T1Basic_HTML_Ex2/Mega_drive.png" 
+                img height="80px" width="150px" scr="img/Mega_drive.png"></th>
+                <th>200€</th>
+            </tr>
+            <tr>
+                <th>293944</th>
+                <th>Playstation Mini</th>
+                <th colspan="0"> <img src="/Users/aleja/OneDrive/Documentos/GitHub/Lenguaje-de-marcas/LM_U2_T1Basic_HTML_Ex2/Playstation_Mini.jpg" 
+                img height="80px" width="150px" scr="img/Playstation_Mini.jpg"></th>
+                <th>300€</th>
+            </tr>
+            <tr>
+                <th class="titulo uno">Número del catálogo</th>
+                <th class="titulo uno">Nombre</th>
+                <th class="titulo uno">Imagen</th>
+                <th class="titulo uno">Web donde lo encontramos</th>
+                <th class="titulo uno">Tienda</th>
+                <th class="titulo uno">Precio</th>
+            </tr>
+        </table>
+    </body>
+</html>
