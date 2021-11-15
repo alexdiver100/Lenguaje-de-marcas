@@ -12,4 +12,4 @@ Para este proyecto he utilizado [Visual Studio Code](https://visualstudio.micros
 
 ### Creditos ❤
 
-**Alejandro Fernández - Trabajo Tootal - alexdiver100 &copy;**
+**Alejandro Fernández López - Trabajo Total - alexdiver100 &copy;**
