@@ -1,9 +1,9 @@
-# Catalogo de productos
+# Catálogo de productos HTML
 
-## Proyecto Catalogo de productos
+## Proyecto Catálogo de productos
 
-Este proyecto consta de realizar un catalogo de varios productos, con su respectiva imagen, precio y web donde se compra.
+Este proyecto consta de realizar en HTML un catálogo de varios productos, con su respectiva imagen, precio y web donde se compra.
 
-## Creditos
+### Creditos
 
-Alejandro Fernández - Trabajo Tootal - alexdiver100
+**Alejandro Fernández - Trabajo Tootal - alexdiver100**
