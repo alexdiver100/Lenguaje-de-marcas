@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3 HTML</title>
+</head>
+
+<body>
+    <h1 style="text-align:left">Formulario de reserva de salas</h1> 
+    <table>
+        <style>
+        table {
+            border-collapse: collapse;
+            }
+
+            td,
+            th {
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            }
+        </style>
+        <tr>
+            <th style="background-color: rgb(184, 184, 184)" class="nombre">Tu nombre
+                <td>
+                    <fieldset style="background-color: rgb(184, 184, 184)">
+                    <input type="text" name="nombre" value="nombre" />
+                    </fieldset>
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th class="correo">Tu correo electronico
+                <td>
+                <input type="email" name="correo" value="correo electrónico" />
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(184, 184, 184)" class="Departamento">Departamento
+                <td>
+                    <fieldset style="background-color: rgb(184, 184, 184)">
+                    <select name="Departamento">
+                        <option>Ventas</option>
+                        <option>Viajes</option>
+                        <option>Atencion al cliente</option>
+                        <option>Almacen</option>
+                    </select>
+                </fieldset>
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th class="sala">Tipo de sala que desea reservar
+                <td>
+                    <form>
+                        <input type="radio" name="sala" value="TipoA" />Tipo A<br/>
+                        <input type="radio" name="sala" value="TipoB" />Tipo B<br/>
+                        <input type="radio" name="sala" value="TipoC" />Tipo C<br/>
+                    </form>
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(184, 184, 184)" class="extra">Requisitos extra</th>
+            <td>
+            <fieldset style="background-color: rgb(184, 184, 184)">
+                <input type="checkbox" name="Caballete y boligrafos" value="Caballete y boligrafos" />Caballete y boligrafos<br />
+                <input type="checkbox" name="Televisión" value="Televisión" />Televisión<br />
+                <input type="checkbox" name="Café, té y agua" value="Café, té y agua" />Café, té y agua<br />
+            </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <th class="Fecha">Fecha de la reserva</th>
+            <td>
+                <input type="date" name="fecha" />
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(184, 184, 184)" class="hora">Hora de la reserva</th>
+            <td>
+                <fieldset style="background-color: rgb(184, 184, 184)">
+                <input type="time" name="hora" />
+                </fieldset>
+            </td>
+        </tr>
+</body>
