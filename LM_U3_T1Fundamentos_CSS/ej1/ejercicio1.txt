@@ -1,0 +1,5 @@
+En el archivo estilos.css podemos ver:
+#body tiene un color de fondo naranja
+#headers podemos ver el titulo h1 en color marrón y un tamaño de 20pt
+#paragraphs el parrafo tendra un tamaño de letra 12pt y un margen izquierdo de 15px
+#paragraphs el parrafo en verso tiene el color de letra marrón  y un margen izquierdo de 60px
