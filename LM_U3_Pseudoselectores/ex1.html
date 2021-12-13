@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 4 HTML</title>
+</head>
+    <body>
+        <table>
+            <style>
+                table, th, td {
+                border: 1px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+                }
+                /* no visitado link */
+                a:link {
+                    color:green;
+                }
+                /* visitado link */
+                a:visited {
+                    color: red;
+                }
+                p {
+                    color: red;
+                }
+            </style>
+             <tr><p><b><a href="default.asp" target="_blank">HORARIO DE CLASE CURSO 2018 - 2019</a></b></p></tr>
+             <tr>
+                <th width="100" style="text-align:center;">HORAS</th>
+                <th width="100" style="text-align:center;">LUNES</th>
+                <th width="100" style="text-align:center;">MARTES</th>
+                <th width="100" style="text-align:center;">MIÉRCOLES</th>
+                <th width="100" style="text-align:center;">JUEVES</th>
+                <th width="100" style="text-align:center;">VIERNES</th>
+             </tr>
+             <tr>
+                <td width="100" style="text-align:left;" bgcolor="green">8:00</td>
+                <td width="100" style="text-align:left;" rowspan="2">Matematicas</td>
+                <td width="100" style="text-align:left;">Lengua</td>
+                <td width="100" style="text-align:left;">Inglés</td>
+                <td width="100" style="text-align:left;" colspan="2">Ciencias</td>
+             </tr>
+             <tr>
+                <td width="100" style="text-align:left;" bgcolor="green">9:00</td>
+                <td width="100" style="text-align:left;">Historia</td>
+                <td width="100" style="text-align:left;">Ciencias</td>
+                <td width="100" style="text-align:left;">Matemáticas</td>
+                <td width="100" style="text-align:left;">Lengua</td>
+             </tr>
+             <tr>
+                <td width="100" style="text-align:left;" bgcolor="green">10:00</td>
+                <th width="100" style="text-align:center;" colspan="5" bgcolor="yellow">RECREO</th>
+             </tr>
+             <tr>
+                <td width="100" style="text-align:left;" bgcolor="green">10:30</td>
+                <td width="100" style="text-align:left;">Inglés</td>
+                <td width="100" style="text-align:left;" rowspan="2">Ciencias</td>
+                <td width="100" style="text-align:left;">Matemáticas</td>
+                <td width="100" style="text-align:left;">Lengua</td>
+                <td width="100" style="text-align:left;">Historia</td>
+             </tr>
+             <tr>
+                <td width="100" style="text-align:left;" bgcolor="green">11:30</td>
+                <td width="100" style="text-align:left;">Historia</td>
+                <td width="100" style="text-align:left;">Ciencias</td>
+                <td width="100" style="text-align:left;">Matemáticas</td>
+                <td width="100" style="text-align:left;">Inglés</td>
+             </tr>
+        </table>
+        <tr>
+            <th class="correo">Email
+                <th style="color:red;">*</th>
+                <td>
+                <input type="email" name="correo" value="inserte email del destinatario" />
+                </td>
+            </th>
+        </tr
+    </body>
+</html>
